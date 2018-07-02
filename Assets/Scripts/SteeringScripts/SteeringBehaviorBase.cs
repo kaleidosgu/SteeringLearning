@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SteeringBehaviorBase : MonoBehaviour {
 
-    public Transform TargetTrans;
+    public Transform TargetTrans;	
 	// Use this for initialization
 	void Start () {
 		
@@ -12,6 +12,5 @@ public class SteeringBehaviorBase : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
 	}
 }
