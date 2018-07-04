@@ -24,8 +24,8 @@ public class HomingBehavior : MonoBehaviour {
     private bool m_bFixedTiming;
     private float m_fCurFixedTime;
     private int m_nCurrentIndex;
-    private float m_fLastTimeMetPlayer;
-    private bool m_bMeetPlayer;
+    //private float m_fLastTimeMetPlayer;
+    //private bool m_bMeetPlayer;
     // Use this for initialization
     void Start () {
         m_rigidbody = GetComponent<Rigidbody2D>();
@@ -102,8 +102,8 @@ public class HomingBehavior : MonoBehaviour {
                 m_flastAngleOfTurn = -AngleOfTurn;
                 m_nCurrentIndex = 0;
             }
-            m_fLastTimeMetPlayer = Time.time;
-            m_bMeetPlayer = true;
+            //m_fLastTimeMetPlayer = Time.time;
+            //m_bMeetPlayer = true;
         }
     }
 }

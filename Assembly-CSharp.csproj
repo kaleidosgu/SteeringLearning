@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\RocketFleeMovement.cs" />
      <Compile Include="Assets\Scripts\RocketMovement.cs" />
      <Compile Include="Assets\Scripts\RocketWander.cs" />
+     <Compile Include="Assets\Scripts\RocketWaveMovement.cs" />
      <Compile Include="Assets\Scripts\SteeringScripts\SteeringBehaviorBase.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Tools/Unity5.6/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
