@@ -294,6 +294,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
   m_IsPrefabParent: 0
@@ -556,11 +560,79 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &960544131
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_Name
+      value: Rocket_Angle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &960544132 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 960544131}
+--- !u!114 &960544133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 960544132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b664e8d268fed4eaf1b5180945480a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AngleToMove: 1
+  SpeedOfRocket: 1
 --- !u!1 &1392081894 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1880492220383020, guid: fe82e9be5704da948a6113f1c119fca3,
@@ -855,3 +927,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Max_Velocity: 2
   TransTarget: {fileID: 739922175}
+--- !u!1 &2045916377 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 884999815}
+--- !u!114 &2045916383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2045916377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae99f658f22c0fc41a9577df9b1a7f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetTransform: {fileID: 739922175}
+  rotatingSpeed: 5000
+  SpeedOfRocket: 5
+  TimeForIgnoringTarget: 0.2
+  RandomRange: {x: 0, y: 0}
+  StartToIgnore: 1
+  AngleOfTurn: 2
+  RocketFixedTime: 1
