@@ -14,6 +14,7 @@ public class HomingBehavior : MonoBehaviour {
     public float AngleOfTurn;
 
     public float RocketFixedTime;
+    public float TimeForMeetPlayer;
 
     private Rigidbody2D m_rigidbody;
     private bool m_bActiveIgnore;
@@ -23,6 +24,8 @@ public class HomingBehavior : MonoBehaviour {
     private bool m_bFixedTiming;
     private float m_fCurFixedTime;
     private int m_nCurrentIndex;
+    private float m_fLastTimeMetPlayer;
+    private bool m_bMeetPlayer;
     // Use this for initialization
     void Start () {
         m_rigidbody = GetComponent<Rigidbody2D>();
@@ -67,6 +70,17 @@ public class HomingBehavior : MonoBehaviour {
                 m_rigidbody.velocity = transform.right * SpeedOfRocket;
             }
         }
+        // if( m_bMeetPlayer == true )
+        // {
+        //     if( Time.time - m_fLastTimeMetPlayer > TimeForMeetPlayer )
+        //     {
+        //         m_fLastTimeMetPlayer = Time.time;
+        //         m_bActiveIgnore = true;
+        //         m_fTimeForIgnoringTarget = 0.0f;
+        //         m_bFixedTiming = false;
+        //         m_bMeetPlayer = false;
+        //     }
+        // }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -88,6 +102,8 @@ public class HomingBehavior : MonoBehaviour {
                 m_flastAngleOfTurn = -AngleOfTurn;
                 m_nCurrentIndex = 0;
             }
+            m_fLastTimeMetPlayer = Time.time;
+            m_bMeetPlayer = true;
         }
     }
 }

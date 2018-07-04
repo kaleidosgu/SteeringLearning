@@ -951,3 +951,4 @@ MonoBehaviour:
   StartToIgnore: 1
   AngleOfTurn: 2
   RocketFixedTime: 1
+  TimeForMeetPlayer: 2
