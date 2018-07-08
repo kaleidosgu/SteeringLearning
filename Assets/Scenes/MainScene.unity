@@ -354,8 +354,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a16544d92d3c8f546820704311ac3f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedOfRocket: 0
-  DistanceOfCheck: 5
+  SpeedOfRocket: 1
+  DistanceOfCheck: 3
+  ColliderTarget: {fileID: 1260697388}
+  ForceOfAvoidance: 0.1
 --- !u!1001 &591871051
 Prefab:
   m_ObjectHideFlags: 0
@@ -592,11 +594,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8.5
+      value: -8.8
       objectReference: {fileID: 0}
     - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_LocalPosition.z
