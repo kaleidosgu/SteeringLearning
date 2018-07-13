@@ -384,7 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedOfRocket: 0.8
   DistanceOfCheck: 1
-  ColliderTarget: {fileID: 1849414623}
+  ColliderTarget: {fileID: 1260697388}
   ForceOfAvoidance: 0.004
   TransDown: {fileID: 581387332}
   TransUp: {fileID: 154601884}
@@ -795,7 +795,7 @@ Transform:
   m_GameObject: {fileID: 1260697385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006479189}
   m_RootOrder: 0
@@ -847,7 +847,7 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1260697385}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1259,7 +1259,7 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1849414621}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1

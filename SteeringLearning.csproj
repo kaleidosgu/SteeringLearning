@@ -82,10 +82,12 @@
     <Compile Include="Assets\Scripts\HomingBehavior.cs" />
     <Compile Include="Assets\Scripts\PlannetMovement.cs" />
     <Compile Include="Assets\Scripts\RocketArrival.cs" />
+    <Compile Include="Assets\Scripts\RocketCollisionAvoidance.cs" />
     <Compile Include="Assets\Scripts\RocketDirectionWithAngle.cs" />
     <Compile Include="Assets\Scripts\RocketFleeMovement.cs" />
     <Compile Include="Assets\Scripts\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\RocketWander.cs" />
+    <Compile Include="Assets\Scripts\RocketWaveMovement.cs" />
     <Compile Include="Assets\Scripts\SteeringScripts\SteeringBehaviorBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

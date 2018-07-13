@@ -123,7 +123,10 @@ public class RocketCollisionAvoidance : MonoBehaviour {
 		Vector3 vecCollider = ColliderTarget.transform.position;
 		Vector3 vecEndPos = transform.right * DistanceOfCheck + transCheck.position;
 		float fDistance = Mathf.Sqrt((vecCollider.x - vecEndPos.x) * (vecCollider.x - vecEndPos.x) + (vecCollider.y - vecEndPos.y) * (vecCollider.y - vecEndPos.y));
-		if( fDistance < ColliderTarget.radius )
+        //当transform扩大scale的时候，collider会根据x，y中大的值进行放大。
+        float fScale = ColliderTarget.transform.localScale.x > ColliderTarget.transform.localScale.y ? ColliderTarget.transform.localScale.x : ColliderTarget.transform.localScale.y;
+
+        if ( fDistance < ColliderTarget.radius * fScale)
 		{
 			bRes = true;
 		}

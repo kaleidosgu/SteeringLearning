@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning", "Assembly-CSharp.csproj", "{8369F98E-0A59-54DB-A909-957E217E1E7F}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning", "SteeringLearning.csproj", "{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
