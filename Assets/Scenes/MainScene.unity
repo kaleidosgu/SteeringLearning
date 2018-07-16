@@ -1098,15 +1098,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.29
+      value: -8.48
       objectReference: {fileID: 0}
     - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.023
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.586
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1163,46 +1163,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: -0.49537313
-      value: 0.003525436
+      time: -0.0031398535
+      value: 0.0010840297
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
-      time: -0.08257203
-      value: 0.69673663
-      inSlope: 0
-      outSlope: 0
+      time: 0.16708004
+      value: 0.025798503
+      inSlope: 0.633979
+      outSlope: 0.633979
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.101208985
-      value: 0.45436037
-      inSlope: -1.7538743
-      outSlope: -1.7538743
+      time: 0.5594852
+      value: 0.31320888
+      inSlope: -0.6792094
+      outSlope: -0.6792094
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.20325604
-      value: 0.19208828
-      inSlope: -0.8576673
-      outSlope: -0.8576673
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.4539907
-      value: 0.6546973
-      inSlope: 0.05722046
-      outSlope: 0.05722046
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.58202374
-      value: 0.20287621
-      inSlope: -1.630038
-      outSlope: -1.630038
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.8714781
-      value: 0.35935712
-      inSlope: -0.846684
-      outSlope: -0.846684
+      time: 0.8647238
+      value: 0.0398175
+      inSlope: -0.93206763
+      outSlope: -0.93206763
       tangentMode: 0
     - serializedVersion: 2
       time: 1.0199434
@@ -1213,7 +1195,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  TimesToBiggerX: 4
+  TimesToBiggerX: 2
   TimesToBiggerY: 1
 --- !u!4 &1330179866 stripped
 Transform:
