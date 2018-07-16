@@ -685,6 +685,34 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!1 &871316958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 871316959}
+  m_Layer: 0
+  m_Name: TransUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &871316959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 871316958}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.089, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1330179866}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &884999815
 Prefab:
   m_ObjectHideFlags: 0
@@ -788,7 +816,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
@@ -861,6 +889,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AngleToMove: 1
   SpeedOfRocket: 1
+--- !u!1 &1189303684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1189303685}
+  m_Layer: 0
+  m_Name: TransDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1189303685
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1189303684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.101, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1330179866}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1202404722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1089,137 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.305
+--- !u!1001 &1291154797
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_Name
+      value: Rocket_AnimationCurve
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TargetTransform
+      value: 
+      objectReference: {fileID: 739922175}
+    - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1330179860 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1291154797}
+--- !u!114 &1330179861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1330179860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f859feb9639d14419bf9676b20b7c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.49537313
+      value: 0.003525436
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: -0.08257203
+      value: 0.69673663
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.101208985
+      value: 0.45436037
+      inSlope: -1.7538743
+      outSlope: -1.7538743
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.20325604
+      value: 0.19208828
+      inSlope: -0.8576673
+      outSlope: -0.8576673
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.4539907
+      value: 0.6546973
+      inSlope: 0.05722046
+      outSlope: 0.05722046
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.58202374
+      value: 0.20287621
+      inSlope: -1.630038
+      outSlope: -1.630038
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.8714781
+      value: 0.35935712
+      inSlope: -0.846684
+      outSlope: -0.846684
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.0199434
+      value: -0.00028693676
+      inSlope: -0.09089708
+      outSlope: -0.09089708
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TimesToBiggerX: 4
+  TimesToBiggerY: 1
+--- !u!4 &1330179866 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1291154797}
 --- !u!1 &1392081894 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1880492220383020, guid: fe82e9be5704da948a6113f1c119fca3,
