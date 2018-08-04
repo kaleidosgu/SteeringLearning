@@ -22,7 +22,7 @@ public class RocketAnimationCurve : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-        Vector3 vec = new Vector3(Time.time * TimesToBiggerX, AnimCurve.Evaluate(Time.time) * TimesToBiggerY, 0);
+        Vector3 vec = new Vector3(Time.time /2 * TimesToBiggerX, AnimCurve.Evaluate(Time.time/4) * TimesToBiggerY, 0);
         transform.localPosition = m_vecLastLocalPos + vec - m_vecLastAdd;
         m_vecLastAdd = vec;
         m_vecLastLocalPos = transform.localPosition;
