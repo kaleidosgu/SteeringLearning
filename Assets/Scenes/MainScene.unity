@@ -685,34 +685,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
---- !u!1 &871316958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 871316959}
-  m_Layer: 0
-  m_Name: TransUp
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &871316959
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871316958}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.089, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1330179866}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &884999815
 Prefab:
   m_ObjectHideFlags: 0
@@ -889,34 +861,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AngleToMove: 1
   SpeedOfRocket: 1
---- !u!1 &1189303684
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1189303685}
-  m_Layer: 0
-  m_Name: TransDown
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1189303685
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1189303684}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.101, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1330179866}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1202404722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,33 +1120,28 @@ MonoBehaviour:
       outSlope: 0.633979
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.5594852
-      value: 0.31320888
+      time: 0.3466556
+      value: 0.33529598
       inSlope: -0.6792094
       outSlope: -0.6792094
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.8647238
-      value: 0.0398175
+      time: 0.42624724
+      value: 0.1012799
       inSlope: -0.93206763
       outSlope: -0.93206763
       tangentMode: 0
     - serializedVersion: 2
-      time: 1.0199434
-      value: -0.00028693676
+      time: 0.5485305
+      value: 0.0006485805
       inSlope: -0.09089708
       outSlope: -0.09089708
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  TimesToBiggerX: 2
-  TimesToBiggerY: 1
---- !u!4 &1330179866 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd,
-    type: 2}
-  m_PrefabInternal: {fileID: 1291154797}
+  TimesToBiggerX: 4
+  TimesToBiggerY: 2
 --- !u!1 &1392081894 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1880492220383020, guid: fe82e9be5704da948a6113f1c119fca3,
