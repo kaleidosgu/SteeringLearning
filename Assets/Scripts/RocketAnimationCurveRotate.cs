@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RocketAnimationCurve : MonoBehaviour {
+public class RocketAnimationCurveRotate : MonoBehaviour {
 
     public Transform transTarget;
     public AnimationCurve AnimCurve;

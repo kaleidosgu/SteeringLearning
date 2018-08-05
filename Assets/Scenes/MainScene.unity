@@ -398,6 +398,60 @@ Transform:
   m_PrefabParentObject: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd,
     type: 2}
   m_PrefabInternal: {fileID: 957877692}
+--- !u!1001 &529578478
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -8.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577226827307104, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_Name
+      value: Rocket_AnimationCurveRotate
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TargetTransform
+      value: 
+      objectReference: {fileID: 739922175}
+    - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &581387331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1182,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  TimesToBiggerX: 4
+  TimesToBiggerX: 2
   TimesToBiggerY: 2
 --- !u!1 &1392081894 stripped
 GameObject:
@@ -1497,6 +1551,49 @@ MonoBehaviour:
   SpeedOfRocket: 3
   TurnSpeed: 0.08
   TimeToChangeDirection: 1.5
+--- !u!1 &1949772041 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 529578478}
+--- !u!114 &1949772042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1949772041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f859feb9639d14419bf9676b20b7c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transTarget: {fileID: 2006479189}
+  AnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.29784417
+      value: -0.2972827
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.29816404
+      value: 0.32581198
+      inSlope: 0.047326047
+      outSlope: 0.047326047
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.90082544
+      value: -0.30110922
+      inSlope: -0.09089708
+      outSlope: -0.09089708
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TimesToBiggerX: 2
+  TimesToBiggerY: 2
 --- !u!1 &2006479188
 GameObject:
   m_ObjectHideFlags: 0
