@@ -447,7 +447,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
@@ -1136,7 +1136,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
@@ -1182,8 +1182,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  TimesToBiggerX: 2
-  TimesToBiggerY: 2
+  TimesToBiggerX: 3
+  TimesToBiggerY: 3
 --- !u!1 &1392081894 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1880492220383020, guid: fe82e9be5704da948a6113f1c119fca3,
@@ -1556,7 +1556,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd,
     type: 2}
   m_PrefabInternal: {fileID: 529578478}
---- !u!114 &1949772042
+--- !u!114 &1949772048
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1564,30 +1564,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1949772041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f859feb9639d14419bf9676b20b7c85, type: 3}
+  m_Script: {fileID: 11500000, guid: 956a587ce38c3b94386f48d597093dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transTarget: {fileID: 2006479189}
+  transTarget: {fileID: 0}
   AnimCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: -0.29784417
-      value: -0.2972827
+      time: -0.29812622
+      value: -0.3008423
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.29816404
-      value: 0.32581198
-      inSlope: 0.047326047
-      outSlope: 0.047326047
+      time: 0.2996743
+      value: 0.30129886
+      inSlope: -0.03532283
+      outSlope: -0.03532283
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.90082544
-      value: -0.30110922
-      inSlope: -0.09089708
-      outSlope: -0.09089708
+      time: 0.9003875
+      value: -0.30170032
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
