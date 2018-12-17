@@ -355,6 +355,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTrans: {fileID: 739922175}
+  turnSpeed: 0
+  LerpAngle: 0
+  movementSpeed: 0
 --- !u!1 &515270275 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1880492220383020, guid: fe82e9be5704da948a6113f1c119fca3,
@@ -456,7 +459,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
@@ -1219,6 +1222,44 @@ MonoBehaviour:
     m_RotationOrder: 0
   TimesToBiggerX: 3
   TimesToBiggerY: 3
+  lstAni:
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.29784417
+      value: -0.2972827
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.29816404
+      value: 0.32581198
+      inSlope: 0.047326047
+      outSlope: 0.047326047
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.90082544
+      value: -0.30110922
+      inSlope: -0.09089708
+      outSlope: -0.09089708
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  - serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 0
+    m_PostInfinity: 0
+    m_RotationOrder: 0
 --- !u!1 &1392081894 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1880492220383020, guid: fe82e9be5704da948a6113f1c119fca3,
@@ -1603,8 +1644,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transTarget: {fileID: 0}
-  AnimCurve:
-    serializedVersion: 2
+  TimesToBiggerX: 3
+  TimesToBiggerY: 2
+  LstAnimCurve:
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.29812622
+      value: -0.3008423
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.29468468
+      value: 0.037485838
+      inSlope: -0.03532283
+      outSlope: -0.03532283
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9003875
+      value: -0.30170032
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  - serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: -0.29812622
@@ -1635,9 +1710,46 @@ MonoBehaviour:
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
-  TimesToBiggerX: 3
-  TimesToBiggerY: 2
+    m_RotationOrder: 4
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.29812622
+      value: -0.3008423
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.31964806
+      value: -0.24516797
+      inSlope: -0.03532283
+      outSlope: -0.03532283
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9003875
+      value: -0.30170032
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_AnimCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TimeToChangeCurve: 1
 --- !u!1 &2006479188
 GameObject:
   m_ObjectHideFlags: 0
