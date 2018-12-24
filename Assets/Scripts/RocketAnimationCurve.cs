@@ -8,6 +8,8 @@ public class RocketAnimationCurve : MonoBehaviour {
     public AnimationCurve AnimCurve;
     public float TimesToBiggerX;
     public float TimesToBiggerY;
+
+    public AnimationCurve[] lstAni;
     
     private Vector3 m_vecLastLocalPos;
     private Vector3 m_vecLastAdd;
