@@ -6,15 +6,14 @@ public class RocketCollisionAvoidance : MonoBehaviour {
 
 	public float SpeedOfRocket;
 	public float DistanceOfCheck;
-	public CircleCollider2D ColliderTarget; 
 	public float ForceOfAvoidance;
 	public Transform TransDown; 
 	public Transform TransUp;
     public List<CircleCollider2D> LstCircleCollider;
 
     private Rigidbody2D m_rigid2d;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		m_rigid2d = GetComponent<Rigidbody2D>();
 	}
 	
@@ -60,17 +59,17 @@ public class RocketCollisionAvoidance : MonoBehaviour {
             bool bCheck = false;
             if (bTrans == true && bCollision == true)
             {
-                _rotateRocket(transform);
+                _rotateRocket(transform, colliderCheck);
                 bCheck = true;
             }
             if (bTransUp == true && bCollisionUp == true)
             {
-                _rotateRocket(transform);
+                _rotateRocket(transform, colliderCheck);
                 bCheck |= true;
             }
             if (bTransDown == true && bCollisionDown == true)
             {
-                _rotateRocket(transform);
+                _rotateRocket(transform, colliderCheck);
                 bCheck |= true;
             }
             if( bCheck == true )
@@ -80,10 +79,10 @@ public class RocketCollisionAvoidance : MonoBehaviour {
         }
 	}
 
-	private void _rotateRocket(Transform transRotate)
+	private void _rotateRocket(Transform transRotate,CircleCollider2D _colliderTarget)
 	{
 		Vector3 vecEndPos = transform.right * DistanceOfCheck + transRotate.position;
-		Vector3 vecPos3 = vecEndPos - ColliderTarget.transform.position;
+		Vector3 vecPos3 = vecEndPos - _colliderTarget.transform.position;
 		Vector2 vec2 = new Vector2( vecPos3.x,vecPos3.y );
 		Vector2 vecNom = vec2.normalized;
 		float fAng = Mathf.Atan2(vecNom.y,vecNom.x) * Mathf.Rad2Deg;
