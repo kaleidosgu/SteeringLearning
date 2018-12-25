@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning", "Assembly-CSharp.csproj", "{8369F98E-0A59-54DB-A909-957E217E1E7F}"
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning", "SteeringLearning.csproj", "{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning", "Assembly-CSharp-Editor.csproj", "{C9BCF7A7-DD68-7492-1116-52DE9F627429}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning.Editor", "SteeringLearning.Editor.csproj", "{92A74AEF-B5E5-FA5D-DBF3-3E136F8ABFA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8369F98E-0A59-54DB-A909-957E217E1E7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9BCF7A7-DD68-7492-1116-52DE9F627429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9BCF7A7-DD68-7492-1116-52DE9F627429}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9BCF7A7-DD68-7492-1116-52DE9F627429}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9BCF7A7-DD68-7492-1116-52DE9F627429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A74AEF-B5E5-FA5D-DBF3-3E136F8ABFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A74AEF-B5E5-FA5D-DBF3-3E136F8ABFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A74AEF-B5E5-FA5D-DBF3-3E136F8ABFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A74AEF-B5E5-FA5D-DBF3-3E136F8ABFA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
