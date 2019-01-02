@@ -734,6 +734,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 0
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -839,6 +840,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 0
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -997,6 +999,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 0
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -1273,6 +1276,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.5
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -2098,6 +2102,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 2
   RocketFixedTime: 0.5
   TimeForMeetPlayer: 2
@@ -2192,6 +2197,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.5
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -2293,6 +2299,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 2
   RocketFixedTime: 0.5
   TimeForMeetPlayer: 2
@@ -2520,6 +2527,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 0
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -2820,6 +2828,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 2
   RocketFixedTime: 0.5
   TimeForMeetPlayer: 2
@@ -3111,6 +3120,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.5
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -3211,6 +3221,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 0
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -3321,6 +3332,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.5
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -3531,6 +3543,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.5
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 5
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
@@ -3632,6 +3645,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 2
   RocketFixedTime: 0.5
   TimeForMeetPlayer: 2
@@ -3803,6 +3817,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 2
   RocketFixedTime: 0.5
   TimeForMeetPlayer: 2
@@ -3927,6 +3942,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 2
   RocketFixedTime: 0.5
   TimeForMeetPlayer: 2
@@ -4247,6 +4263,7 @@ MonoBehaviour:
   TimeForIgnoringTarget: 0.2
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
+  RocketTurnAround: 0
   AngleOfTurn: 2
   RocketFixedTime: 0.1
   TimeForMeetPlayer: 2
