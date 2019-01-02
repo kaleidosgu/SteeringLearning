@@ -17,7 +17,7 @@ public class RocketAroundTarget : MonoBehaviour
         m_homingBehavior = GetComponent<HomingBehavior>();
         if (m_nCurrentIndex >= 0 && m_nCurrentIndex < m_nCountsTarget)
         {
-            m_homingBehavior.TargetTransform = LstTargets[m_nCurrentIndex];
+            m_homingBehavior.ChangeNextTarget(LstTargets[m_nCurrentIndex]);
             m_lastCollider = LstTargets[m_nCurrentIndex].GetComponent<Collider2D>();
         }
     }
@@ -42,8 +42,7 @@ public class RocketAroundTarget : MonoBehaviour
                 {
                     m_nCurrentIndex = 0;
                 }
-                m_homingBehavior.TargetTransform = LstTargets[m_nCurrentIndex];
-                Debug.Log(string.Format("m_nCurrentIndex {0}", m_nCurrentIndex));
+                m_homingBehavior.ChangeNextTarget(LstTargets[m_nCurrentIndex]);
             }
         }
     }
