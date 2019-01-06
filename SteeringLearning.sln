@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning", "SteeringLearning.csproj", "{189F7AE0-034A-86D1-BBEE-B804FC31AB9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeringLearning.Editor", "SteeringLearning.Editor.csproj", "{92A74AEF-B5E5-FA5D-DBF3-3E136F8ABFA0}"

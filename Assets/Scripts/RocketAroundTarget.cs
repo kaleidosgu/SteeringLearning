@@ -6,6 +6,7 @@ public class RocketAroundTarget : MonoBehaviour
 {
 
     public List<Transform> LstTargets;
+    public bool TriggerClose;
     private int m_nCurrentIndex;
     private int m_nCountsTarget;
     private HomingBehavior m_homingBehavior;
@@ -31,18 +32,21 @@ public class RocketAroundTarget : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlannetColliderTag")
         {
-            if(m_lastCollider != null)
+            if(TriggerClose == false)
             {
-                m_lastCollider = collision;
-                if( m_nCurrentIndex < m_nCountsTarget - 1)
+                if (m_lastCollider != null)
                 {
-                    m_nCurrentIndex++;
+                    m_lastCollider = collision;
+                    if (m_nCurrentIndex < m_nCountsTarget - 1)
+                    {
+                        m_nCurrentIndex++;
+                    }
+                    else
+                    {
+                        m_nCurrentIndex = 0;
+                    }
+                    m_homingBehavior.ChangeNextTarget(LstTargets[m_nCurrentIndex]);
                 }
-                else
-                {
-                    m_nCurrentIndex = 0;
-                }
-                m_homingBehavior.ChangeNextTarget(LstTargets[m_nCurrentIndex]);
             }
         }
     }

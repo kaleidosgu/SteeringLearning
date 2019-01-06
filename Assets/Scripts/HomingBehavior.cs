@@ -18,6 +18,8 @@ public class HomingBehavior : MonoBehaviour {
 
     public float TimeKeepMovingAfterChangingTarget;
 
+    public float CurrentAngularVelocity;
+
     private Rigidbody2D m_rigidbody;
     private bool m_bActiveIgnore;
     private float m_fTimeForIgnoringTarget;
@@ -28,11 +30,16 @@ public class HomingBehavior : MonoBehaviour {
     private int m_nCurrentIndex;
     private bool m_bKeepMoving;
     private float m_fCurTimeKeepMoving;
+
+    private float m_fCurrentRotatingSpeed;
+    private bool m_bChangeSpeed;
     //private float m_fLastTimeMetPlayer;
     //private bool m_bMeetPlayer;
     // Use this for initialization
     void Start () {
         m_rigidbody = GetComponent<Rigidbody2D>();
+
+        m_fCurrentRotatingSpeed = rotatingSpeed;
 
     }
 	
@@ -82,9 +89,10 @@ public class HomingBehavior : MonoBehaviour {
                     point2Target.Normalize();
 
                     float value = Vector3.Cross(point2Target, transform.right).z;
-                    float fChangeValueCache = rotatingSpeed * value;
+                    float fChangeValueCache = m_fCurrentRotatingSpeed * value;
                     m_rigidbody.angularVelocity = fChangeValueCache * Time.deltaTime;
                     m_rigidbody.velocity = transform.right * SpeedOfRocket;
+                    CurrentAngularVelocity = m_rigidbody.angularVelocity;
                 }
             }
         }
@@ -118,5 +126,15 @@ public class HomingBehavior : MonoBehaviour {
         TargetTransform = transTarget;
         m_fCurTimeKeepMoving = 0.0f;
         m_bKeepMoving = true;
+    }
+
+    public void ChangeRotationSpeed(float fSpeed)
+    {
+        m_fCurrentRotatingSpeed = fSpeed;
+    }
+
+    public void ResetRotatingSpeed()
+    {
+        m_fCurrentRotatingSpeed = rotatingSpeed;
     }
 }
