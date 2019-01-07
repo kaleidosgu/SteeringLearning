@@ -9,6 +9,8 @@ public class RocketChangeRotationSpeed : MonoBehaviour {
     public Transform TargetCenterTrans;
     public float turnSpeed;
 
+    public bool ChangeHomingBehaviour;
+
     private float m_fCurrentTimeToChange;
     private HomingBehavior m_homingBehavior;
 
@@ -28,7 +30,10 @@ public class RocketChangeRotationSpeed : MonoBehaviour {
             {
                 m_bChangeRotating = false;
                 m_homingBehavior.ResetRotatingSpeed();
-                m_homingBehavior.enabled = true;
+                if(ChangeHomingBehaviour == true)
+                {
+                    m_homingBehavior.enabled = true;
+                }
             }
 
             Vector2 vecSelf = new Vector2(transform.position.x, transform.position.y);
@@ -43,8 +48,12 @@ public class RocketChangeRotationSpeed : MonoBehaviour {
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //这里需要区分开降为0速度以及慢慢降到0并且旋转角度
         m_homingBehavior.ChangeVelocityZero();
-        m_homingBehavior.enabled = false;
+        if (ChangeHomingBehaviour == true)
+        {
+            m_homingBehavior.enabled = false;
+        }
         m_bChangeRotating = true;
         m_fCurrentTimeToChange = 0.0f;
 

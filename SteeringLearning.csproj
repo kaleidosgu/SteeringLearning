@@ -244,6 +244,7 @@
     <Compile Include="Assets\Scripts\RocketDirectionWithAngle.cs" />
     <Compile Include="Assets\Scripts\RocketFleeMovement.cs" />
     <Compile Include="Assets\Scripts\RocketMovement.cs" />
+    <Compile Include="Assets\Scripts\RocketSpeedChange.cs" />
     <Compile Include="Assets\Scripts\RocketWander.cs" />
     <Compile Include="Assets\Scripts\RocketWaveMovement.cs" />
     <Compile Include="Assets\Scripts\ScriptTest\ObjectRotation.cs" />

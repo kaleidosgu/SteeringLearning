@@ -309,6 +309,7 @@ MonoBehaviour:
   TimeToChangeRotating: 0.5
   TargetCenterTrans: {fileID: 1204627948}
   turnSpeed: 10
+  ChangeHomingBehaviour: 0
 --- !u!1 &43936156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,6 +1299,7 @@ MonoBehaviour:
   TimeToChangeRotating: 0.5
   TargetCenterTrans: {fileID: 1204627948}
   turnSpeed: 10
+  ChangeHomingBehaviour: 0
 --- !u!114 &542676017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1338,6 +1340,20 @@ MonoBehaviour:
   - {fileID: 226254677}
   - {fileID: 694626541}
   TriggerClose: 1
+--- !u!114 &542676023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 542676015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd350a4919fb4044a8386104e42a0fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedToChange: {x: 0, y: 0}
+  TimeToChangeSpeed: 2
+  SpeedRateToChange: 2
 --- !u!1 &552860011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2350,6 +2366,7 @@ MonoBehaviour:
   TimeToChangeRotating: 0.5
   TargetCenterTrans: {fileID: 1204627948}
   turnSpeed: 10
+  ChangeHomingBehaviour: 0
 --- !u!1 &1059312363 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd,
@@ -3311,6 +3328,7 @@ MonoBehaviour:
   TimeToChangeRotating: 0.5
   TargetCenterTrans: {fileID: 1204627948}
   turnSpeed: 10
+  ChangeHomingBehaviour: 0
 --- !u!1 &1444863718
 GameObject:
   m_ObjectHideFlags: 0
@@ -3823,6 +3841,7 @@ MonoBehaviour:
   TimeToChangeRotating: 0.5
   TargetCenterTrans: {fileID: 1204627948}
   turnSpeed: 10
+  ChangeHomingBehaviour: 0
 --- !u!1001 &1634058795
 Prefab:
   m_ObjectHideFlags: 0
