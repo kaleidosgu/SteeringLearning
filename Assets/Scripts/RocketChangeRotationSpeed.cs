@@ -43,6 +43,7 @@ public class RocketChangeRotationSpeed : MonoBehaviour {
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        m_homingBehavior.ChangeVelocityZero();
         m_homingBehavior.enabled = false;
         m_bChangeRotating = true;
         m_fCurrentTimeToChange = 0.0f;

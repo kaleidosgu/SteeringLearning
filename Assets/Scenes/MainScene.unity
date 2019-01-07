@@ -1133,7 +1133,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Name
-      value: RocketAroundTarget
+      value: RocketAround1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: TargetTransform
@@ -2178,7 +2178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Name
-      value: RocketAroundTarget (4)
+      value: RocketAround5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: TargetTransform
@@ -3195,7 +3195,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Name
-      value: RocketAroundTarget (1)
+      value: RocketAround2
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: TargetTransform
@@ -3426,7 +3426,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Name
-      value: RocketAroundTarget (2)
+      value: RocketAround3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: TargetTransform
@@ -3654,7 +3654,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Name
-      value: RocketAroundTarget (3)
+      value: RocketAround4
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: TargetTransform

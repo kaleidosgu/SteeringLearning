@@ -137,4 +137,9 @@ public class HomingBehavior : MonoBehaviour {
     {
         m_fCurrentRotatingSpeed = rotatingSpeed;
     }
+
+    public void ChangeVelocityZero()
+    {
+        m_rigidbody.velocity = Vector2.zero;
+    }
 }
