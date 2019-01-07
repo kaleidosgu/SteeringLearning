@@ -235,7 +235,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Layer
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetTransform: {fileID: 739922175}
   rotatingSpeed: 20000
-  SpeedOfRocket: 10
+  SpeedOfRocket: 5
   TimeForIgnoringTarget: 0.5
   RandomRange: {x: 0, y: 0}
   StartToIgnore: 1
@@ -2276,7 +2276,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Layer
@@ -3237,7 +3237,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Layer
@@ -3749,7 +3749,7 @@ Prefab:
       objectReference: {fileID: 739922175}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1982759975189666, guid: 7b568d7f371db6444adb0373b18711bd, type: 2}
       propertyPath: m_Layer
